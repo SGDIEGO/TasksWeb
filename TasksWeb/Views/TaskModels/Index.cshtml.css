@@ -1,0 +1,30 @@
+﻿.tasks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+}
+
+.task {
+    border: solid;
+    border-color: darkslategray;
+    border-width: thin;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+    .task:hover {
+        transform: scale(1.1);
+    }
+
+.task-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+    padding-left: 0.5rem;
+}

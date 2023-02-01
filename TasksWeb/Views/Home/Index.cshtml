@@ -3,6 +3,24 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">TASK APP WEB</h1>
+
+    <p>CREATE YOUR OWN ASK FOR ORGANIZE YOUR TIME.</p>
+
+    <div class="tasks">
+        <div class="task">
+            <div class="task-info">
+                <p> <strong>Title</strong>: ...</p>
+                <p> <strong>Author</strong>: ...</p>
+                <p> <strong>Content</strong>: ...</p>
+                <p> <strong>CreatedOn</strong>: ...</p>
+            </div>
+
+            <div class="task-btn">
+                <button asp-action="Edit" class="btn btn-secondary example">Edit</button>
+                <button asp-action="Details" class="btn btn-info example" >Details</button>
+                <button asp-action="Delete" class="btn btn-danger example" >Delete</button>
+            </div>
+        </div>
+    </div>
 </div>
